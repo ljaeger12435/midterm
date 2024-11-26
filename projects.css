@@ -67,10 +67,14 @@ a {
 
 a:hover {
     color: red;
+    
+}
+
+a.beige:hover{
     background-color: antiquewhite;
 }
 
-    
+
 
 .projectflex {
     display: flex;
@@ -88,11 +92,20 @@ a:hover {
 
 .hover-effect:hover {
     filter: grayscale(0); 
-    filter: ;
+   
 }
 
 .copyright /*projects behind*/{
     position: fixed;
     bottom: 50px;
     padding-left: 7%;
+}
+
+
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
 }
